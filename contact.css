@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    background: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: 'Cinzel', serif;
+    color: #000000;
+    font-size: 75pt;
+    margin: 0;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 5px;
+  }
+  
+  .subtitle {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #000000;
+    margin: 0px;
+  }
+  
+  header {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    min-height: 100px;
+  }
+  
+  nav {
+    background-color: #800000;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #fff1dd;
+  }
+  
+  /* Contact section layout with flexbox */
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Left side: Images */
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 45%;
+  }
+  
+  .contact-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Right side: Contact form */
+  .contact-container {
+    flex-basis: 45%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container h2 {
+    font-size: 32px;
+    color: #660025;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  
+  /* Form styles */
+  form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #800000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Lora', serif;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #a7003d;
+  }
+  
+  footer {
+    background-color: #800000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+  }
+  

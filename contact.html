@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Sarah</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sarah the World</h1>
+      <p class="subtitle">
+        my overflow: connecting the dots, writing stories, sharing ideas
+      </p>
+    </header>
+
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="blog.html">BLOG</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+
+    <!-- Contact Section (flex container) -->
+    <div class="contact-section">
+      <!-- Left Side: Images -->
+      <div class="left-side">
+        <img src="images/abaya sarah.jpg" alt="Image 1" class="contact-image" />
+        <img src="images/contemplate.jpg" alt="Image 2" class="contact-image" />
+      </div>
+
+      <!-- Right Side: Contact Form -->
+      <div class="contact-container">
+        <h2>I'd love to hear from you!</h2>
+        <form action="your-form-handler.php" method="POST">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="your email">Your Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <input type="submit" value="Send Message" />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>Sarah, the world.</p>
+    </footer>
+  </body>
+</html>

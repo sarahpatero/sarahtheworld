@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant:wght@400;500;700&display=swap');
+
+body { 
+    font-family: 'Lora', serif;
+    background: #ffffff; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+h1 { 
+    font-family: 'Cinzel', serif;
+    color: #000000; 
+    font-size: 75pt;
+    margin: 0;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+.subtitle {
+    font-family:'Lora', serif;
+    font-style: italic;
+    color:#000000;
+    margin: 0px;
+}
+header {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    min-height: 100px;
+}
+nav {
+    background-color: #800000;
+    padding: 5px;
+    text-align: center;
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff1dd;
+}
+.container {
+    background-color: #ffffff;
+    color: #333333; /* Use dark text for readability */
+    margin: auto;
+}
+.Welcome p {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.8;
+
+}
+
+button, .btn {
+    background-color: #FFD700;
+    color: #800080;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover, .btn:hover {
+    background-color: #FFB6C1;
+    color: #800080;
+}
+footer {
+    background-color: #800000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+
+}
+.parallax-container-1 {
+    position: relative;
+    width: 100%;  /* Ensure the container takes up full width */
+    height: 50vh;  /* Set initial height of the container to be the height of the viewport */
+    background-image: url('images/sunset\ image.jpg');
+    background-size: cover; /* Ensure the image width fills the container, and the height scales automatically */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+    transition: background-position 0.1s ease-out; /* Optional: smooth transition for position change */
+}
+.overlay-text {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    top: 50%;  /* Position text vertically in the center */
+    left: 50%; /* Position text horizontally in the center */
+    transform: translate(-50%, -50%);  /* Adjust position to be perfectly centered */
+    color: white;  /* Text color */
+    font-size: 40px;  /* Text size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Optional: add text shadow for better visibility */
+    text-align:end;  
+}
+.parallax-container-2 {
+    position: relative;
+    width: 100%;  /* Ensure the container takes up full width */
+    height: 75vh;  /* Set initial height of the container to be the height of the viewport */
+    background-image: url('images/parking\ garage.jpg');
+    background-size: cover; /* Ensure the image width fills the container, and the height scales automatically */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+    transition: background-position 0.1s ease-out, height 0.3s ease-out;/* Optional: smooth transition for position change */
+}
+
+.overlay-text {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    top: 50%;  /* Position text vertically in the center */
+    left: 50%; /* Position text horizontally in the center */
+    transform: translate(-50%, -50%);  /* Adjust position to be perfectly centered */
+    color: white;  /* Text color */
+    font-size: 40px;  /* Text size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Optional: add text shadow for better visibility */
+    text-align:center;  
+}
